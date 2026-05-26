@@ -38,16 +38,16 @@ VideoWriter  writer(
 
 //Set best difference to transistion bound value (if no neighbour is within bounds then jump)
 // Higher = longer paths so more squiggly
-int pathCutoff = 200;
+int pathCutoff = 50;
 //num of pixels in image
-int rows = 300; int cols = 300;
+int rows = 1024; int cols = 1024;
 //value between 2 and 256, more = noisier 
 int noiseMapRange = 50;
 //Colour gradient end points
-cv::Vec3b colour1(230, 64, 222);
-cv::Vec3b colour2(240, 230, 66);
+cv::Vec3b colour1(66, 170, 222);
+cv::Vec3b colour2(240, 66, 160);
 //Shuffle breadth first search priority list 
-bool shuffleSearcher = false;
+bool shuffleSearcher = true;
 
 
 

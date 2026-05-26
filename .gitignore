@@ -362,7 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 output.avi
-ImageGenerator.sln
-ImageGenerator.vcxproj
-*.filters
+
 output1.avi
